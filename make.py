@@ -32,10 +32,7 @@ KEY_URL = "html_url"
 KEY_ITEMS = "items"
 KEY_UPDATED_AT = 'updated_at'
 
-languages = ["Verilog", "VHDL", "V", "Erlang", "Kotlin", "D", "Crystal", "Idris", "Python", "Java", "C", "CPP", "SQL",
-             "Node", "CSharp", "PHP", "Ruby", "TypeScript", "Swift", "ObjectiveC",
-             "VB.net", "Assembly", "R", "Perl", "MATLAB", "Go", "Scala", "Groovy", "Lua", "Haskell", "CoffeeScript",
-             "Clojure", "Rust", "JavaScript", "ActionScript", "Elixir", "Elm", "PureScript"]
+languages = ["SystemVerilog", "Verilog", "VHDL", "Bluespec", "Bluespec BH"]
 
 
 class WrongReturnCodeException(Exception):
